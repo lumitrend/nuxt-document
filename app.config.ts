@@ -56,7 +56,7 @@ export default defineAppConfig({
       },
             {
           title: '关于',
-          to: '/about/,
+          to: '/about/',
           target: '_self',
           showLinkIcon: false,
           icon: 'lucide:github',
@@ -86,7 +86,7 @@ export default defineAppConfig({
       {
         icon: 'lucide:bluesky',
         to: 'https://bsky.app/profile/vaeluon.com',
-        target: '_blank'
+        target: '_blank',
       },
       ],
     },
