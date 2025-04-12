@@ -14,7 +14,7 @@ actions:
   - name: 文档
     variant: outline
     to: /docs/
-    leftIconl:'lucide:books'
+    leftIcon: 'lucide:books'
   - name: 博客
     variant: outline
     to: /blog/
