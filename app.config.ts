@@ -11,7 +11,7 @@ export default defineAppConfig({
     },
     header: {
       title: 'Vaeluon',
-      showTitle: false,
+      showTitle: true,
       darkModeToggle: true,
       logo: {
         light: '/logo.svg',
