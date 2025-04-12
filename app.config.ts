@@ -35,23 +35,23 @@ export default defineAppConfig({
       },
             {
           title: '博客',
-          to: '//blog.vaeluon.com',
+          to: '/blog/',
           target: '_blank',
-          showLinkIcon: true,
+          showLinkIcon: false,
           icon: 'lucide:github',
       },
             {
           title: '官网',
           to: '//vaeluon.com',
           target: '_blank',
-          showLinkIcon: true,
+          showLinkIcon: false,
           icon: 'lucide:github',
       },
             {
           title: '社区',
           to: '//github.com/lumitrend/community/',
           target: '_blank',
-          showLinkIcon: true,
+          showLinkIcon: false,
           icon: 'lucide:github',
       },
             {
@@ -84,15 +84,20 @@ export default defineAppConfig({
         target: '_blank',
       },
       {
-        icon: 'lucide:bluesky',
-        to: 'https://bsky.app/profile/vaeluon.com',
+        icon: 'lucide:twitter',
+        to: 'https://x.com/Vaeluon',
+        target: '_blank',
+      },
+            {
+        icon: 'lucide:youtube',
+        to: 'https://www.youtube.com/@Vaeluon',
         target: '_blank',
       },
       ],
     },
     toc: {
       enable: true,
-      title: 'On This Page',
+      title: '在本页',
       links: [{
         title: 'Star on GitHub',
         icon: 'lucide:star',

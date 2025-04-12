@@ -1,5 +1,5 @@
 ---
 title: 文档
-navigation: true
+navigation: false
 ---
 ## h2标题

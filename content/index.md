@@ -6,18 +6,21 @@ navigation: false
 ::hero
 ---
 announcement:
-  title: '项目正式上线了'
-  icon: '🎉'
+  title: '在 Github 上关注'
+  icon: 'lucide:github'
   to: https://github.com/lumitrend/documents
   target: _blank
 actions:
   - name: 文档
-    to: /docs/
-  - name: GitHub
     variant: outline
-    to: https://github.com/lumitrendlu/documents
-    leftIcon: 'lucide:github'
+    to: /docs/
+    leftIconl:'lucide:books'
+  - name: 博客
+    variant: outline
+    to: /blog/
+    leftIcon: 'lucide:pen'
   - name: 赞赏
+    variant: outline
     to: https://sponsor.vaeluon.com
     leftIcon: 'lucide:heart'
 ---
