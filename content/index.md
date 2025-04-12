@@ -1,31 +1,31 @@
 ---
-title: Home
+title: 首页
 navigation: false
 ---
 
 ::hero
 ---
 announcement:
-  title: 'Release v0.8.21'
+  title: '项目正式上线了'
   icon: '🎉'
-  to: https://github.com/ZTL-UwU/shadcn-docs-nuxt/releases/latest
+  to: https://github.com/lumitrend/documents
   target: _blank
 actions:
-  - name: Documentation
-    to: https://shadcn-docs-nuxt.vercel.app/getting-started/introduction
+  - name: 文档
+    to: /docs/
   - name: GitHub
     variant: outline
-    to: https://github.com/ZTL-UwU/shadcn-docs-nuxt
+    to: https://github.com/lumitrendlu/documents
     leftIcon: 'lucide:github'
 ---
 
 #title
-Welcome to shadcn-docs-nuxt
+Vaeluon 文档中心
 
 #description
-Beautifully designed Nuxt Content template built with shadcn-vue. :br Customizable. Compatible. Open Source.
+提供多个开源项目的使用方式以及部署文档，steam card，readme cards等众多项目
 ::
 
 ::div{class="border rounded-lg shadow-md"}
-  :iframe{src="https://shadcn-docs-nuxt.vercel.app/getting-started/introduction" height="700" width="100%" class="rounded-lg" scrolling="no" frameborder="0"}
+  :iframe{src="/docs/" height="700" width="100%" class="rounded-lg" scrolling="no" frameborder="0"}
 ::

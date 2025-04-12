@@ -21,8 +21,8 @@ export default defineAppConfig({
         title: '首页',
         to: '/',
         target: '_self',
-        showLinkIcon: true,
-        icon: 'lucide:home',
+        showLinkIcon: false,
+        icon: 'lucide:github',
         
       }],
       links: [{
