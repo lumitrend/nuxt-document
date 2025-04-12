@@ -17,6 +17,9 @@ actions:
     variant: outline
     to: https://github.com/lumitrendlu/documents
     leftIcon: 'lucide:github'
+  - name: 赞赏
+    to: https://sponsor.vaeluon.com
+    leftIcon: 'lucide:heart'
 ---
 
 #title
