@@ -28,7 +28,7 @@ Vaeluon 文档中心
 
 #description
 提供多个开源项目的使用以及部署文档  
- **steam-cards、readme-cards** 等众多项目 
+ **steam-cards、readme-cards** 等众多项目  
 我为人人 人人为我  
 ## 开源盛世 人人向往  
 ::
