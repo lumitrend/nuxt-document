@@ -1,7 +1,7 @@
 export default defineAppConfig({
   shadcnDocs: {
     site: {
-      name: 'shadcn-docs-nuxt',
+      name: 'Vaeluon',
       description: 'Beautifully designed Nuxt Content template built with shadcn-vue. Customizable. Compatible. Open Source.',
     },
     theme: {
@@ -10,17 +10,24 @@ export default defineAppConfig({
       radius: 0.5,
     },
     header: {
-      title: 'shadcn-docs-starter',
-      showTitle: true,
+      title: 'Vaeluon',
+      showTitle: false,
       darkModeToggle: true,
       logo: {
         light: '/logo.svg',
         dark: '/logo-dark.svg',
       },
-      nav: [],
+      nav: [ {
+        title: '首页',
+        to: '/',
+        target: '_self',
+        showLinkIcon: true,
+        icon: 'lucide:home',
+        
+      }],
       links: [{
         icon: 'lucide:github',
-        to: 'https://github.com/ZTL-UwU/shadcn-docs-nuxt',
+        to: 'https://github.com/lumitrend/',
         target: '_blank',
       }],
     },
