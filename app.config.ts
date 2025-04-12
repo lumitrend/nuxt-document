@@ -36,7 +36,7 @@ export default defineAppConfig({
             {
           title: '博客',
           to: '//blog.vaeluon.com',
-          target: '_blank,
+          target: '_blank',
           showLinkIcon: true,
           icon: 'lucide:github',
       },
@@ -56,7 +56,7 @@ export default defineAppConfig({
       },
             {
           title: '关于',
-          to: /about/'',
+          to: '/about/,
           target: '_self',
           showLinkIcon: false,
           icon: 'lucide:github',
