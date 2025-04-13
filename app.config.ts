@@ -35,7 +35,7 @@ export default defineAppConfig({
         light: '/logo.svg',
         dark: '/logo-dark.svg',
       },
-      showTitleInMobile: true,
+      showTitleInMobile: false,
       nav: [
           {
         title: '首页',
