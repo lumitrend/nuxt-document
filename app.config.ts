@@ -45,7 +45,7 @@ export default defineAppConfig({
           title: '文档',
           to: '/docs/',
           target: '_self',
-          showLinkIcon: true,
+          showLinkIcon: false,
           icon: 'lucide:github',
           },
           {
