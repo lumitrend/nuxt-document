@@ -3,20 +3,39 @@ export default defineAppConfig({
     site: {
       name: 'Vaeluon',
       description: 'Beautifully designed Nuxt Content template built with shadcn-vue. Customizable. Compatible. Open Source.',
+      ogImage: '/assets/og.png',
+     // ogImageComponent: '',
+      ogImageColor: 'light',
     },
     theme: {
       customizable: true,
       color: 'zinc',
       radius: 0.5,
     },
+    banner: {
+     enable: false,
+     showClose: true,
+     to: 'https://github.com',
+     content: 'xx',
+     target: '_blank',
+     border: true,
+    },
     header: {
+      showLoadingIndicator: true,
       title: 'Vaeluon',
       showTitle: true,
+      border: false,
       darkModeToggle: true,
+      languageSwitcher: {
+        enable:true,
+        triggerType: 'icon',
+        dropdownType: 'select',
+      },
       logo: {
         light: '/logo.svg',
         dark: '/logo-dark.svg',
       },
+      showTitleInMobile: true,
       nav: [
           {
         title: '首页',
@@ -70,11 +89,20 @@ export default defineAppConfig({
     },
     aside: {
       useLevel: true,
-      collapse: false,
+      collapse: true,
+      collapseLevel: 1,
+      folderStyle: 'default',
     },
     main: {
+      padded: true,
       breadCrumb: true,
       showTitle: true,
+      codeCopyToast: true,
+      codeCopyIcon: 'lucide:copy',
+      codeCopyToastText: '复制到剪贴板！',
+      fieldRequiredText: '必填',
+      pm: ['npm', 'pnpm', 'bun', 'yarn'],
+      
     },
     footer: {
       credits: 'Copyright © 2025 Vaeluon',
@@ -102,7 +130,9 @@ export default defineAppConfig({
     },
     toc: {
       enable: true,
-      title: '在本页',
+      enableInMobile: true,
+      enableInHomepage: false,
+      title: '此页面',
       links: [{
         title: 'Star on GitHub',
         icon: 'lucide:star',
@@ -118,6 +148,9 @@ export default defineAppConfig({
     search: {
       enable: true,
       inAside: false,
+      style: 'input',
+      placeholder: '搜索...',
+      placeholderDetailed: '文档搜索...',
     }
   }
 });
