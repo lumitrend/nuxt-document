@@ -4,7 +4,7 @@ export default defineAppConfig({
       name: 'Vaeluon',
       description: 'Beautifully designed Nuxt Content template built with shadcn-vue. Customizable. Compatible. Open Source.',
       ogImage: '/assets/og.png',
-     / ogImageComponent: 'BlogPost',
+      ogImageComponent: 'BlogPost',
       ogImageColor: 'light',
     },
     theme: {
