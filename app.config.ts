@@ -61,7 +61,7 @@ export default defineAppConfig({
             to: '//vaeluon.com',
             target: '_blank',
             showLinkIcon: true,
-            icon: 'house',
+            icon: 'lucide:house',
             },
             {
             title: '博客',
