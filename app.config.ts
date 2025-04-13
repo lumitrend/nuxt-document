@@ -50,32 +50,38 @@ export default defineAppConfig({
           to: '/docs/',
           target: '_self',
           showLinkIcon: false,
+          icon: 'lucide:book'
           },
           {
           title: '支持',
+          icon: 'lucide:heart-headshake'
           links: [{
             title: '官网',
             to: '//vaeluon.com',
             target: '_blank',
             showLinkIcon: true,
+            icon: 'house'
             },
             {
             title: '博客',
             to: '//blog.vaeluon.com/',
             target: '_blank',
             showLinkIcon: true,
+            icon: 'lucide:pen'
           },
             {
             title: '社区',
             to: '//github.com/lumitrend/community/',
             target: '_blank',
             showLinkIcon: true,
+            icon: 'lucide:messages-square'
           },
             {
             title: '关于',
             to: '/about/',
             target: '_self',
             showLinkIcon: false,
+            icon: 'lucide:square-user'
           },
           ],
           },
@@ -93,18 +99,21 @@ export default defineAppConfig({
           to: '//ghog.vaeluon.com',
           description: '制作并获取Github仓库专属OgImage图片',
           target: '_blank',
+          icon: 'lucide:github'
         },
         {
           title: 'Readme.MD Edit',
           to: '//github.com',
           description: 'Github自述文件 README 信息卡扩展',
           target: '_blank',
+          icon: 'lucide:arrow-big-down-dash'
         },
         {
           title: 'Steam信息卡',
           to: '//stesm.vaeluon.com',
           description: '制作并获取Steam用户信息以及专属OgImage图片',
           target: '_blank',
+          icon: 'lucide:swords'
         },
         {
           title: '全部产品',
