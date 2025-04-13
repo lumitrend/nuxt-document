@@ -90,7 +90,12 @@ export default defineAppConfig({
       },
             {
         icon: 'lucide:youtube',
-        to: 'https://www.youtube.com/@Vaeluon',
+        to: 'https://www.youtube.com/@evanyanet',
+        target: '_blank',
+      },
+              {
+        icon: 'lucide:bilibili',
+        to: 'https://space.bilibili.com/397615069',
         target: '_blank',
       },
       ],
