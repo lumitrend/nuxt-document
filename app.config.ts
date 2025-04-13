@@ -37,50 +37,48 @@ export default defineAppConfig({
       },
       showTitleInMobile: false,
       nav: [
+          {title: '首页',to: '/',target: '_self',showLinkIcon: false,icon: 'lucide:github',
+          },
+          {title: '文档',
+            link: [
           {
-        title: '首页',
-        to: '/',
-        target: '_self',
-        showLinkIcon: false,
-        icon: 'lucide:github',
-        
-      },
-      {
           title: '文档',
           to: '/docs/',
           target: '_self',
           showLinkIcon: true,
           icon: 'lucide:github',
-      },
-            {
+          },
+          {
           title: '博客',
           to: '//blog.vaeluon.com/',
           target: '_blank',
           showLinkIcon: false,
           icon: 'lucide:github',
-      },
-            {
+          },
+          {
           title: '官网',
           to: '//vaeluon.com',
           target: '_blank',
           showLinkIcon: false,
           icon: 'lucide:github',
-      },
-            {
+          },
+          {
           title: '社区',
           to: '//github.com/lumitrend/community/',
           target: '_blank',
           showLinkIcon: false,
           icon: 'lucide:github',
-      },
-            {
+          },
+          {
           title: '关于',
           to: '/about/',
           target: '_self',
           showLinkIcon: false,
           icon: 'lucide:github',
-      },
-      ],
+          },
+            ],
+          },
+        ],
       /* links: [{
         icon: 'lucide:github',
         to: 'https://github.com/lumitrend/',
