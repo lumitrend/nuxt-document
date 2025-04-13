@@ -18,17 +18,13 @@ actions:
     variant: outline
     to: /blog/
     leftIcon: 'lucide:pen'
-  - name: 赞赏
-    to: https://sponsor.vaeluon.com
-    leftIcon: 'lucide:heart'
 ---
 
 #title
 Vaeluon 文档中心
 
 #description
-提供多个开源项目的使用以及部署文档  
- **SteamInfo|ReadmeCard|SiteOgImage|GithubOgImage...**   
+提供开源项目的使用以及部署文档  
  多项目|多支持|多方便|多开源  
 <h2>开源盛世 人人向往</h2>  
 ::

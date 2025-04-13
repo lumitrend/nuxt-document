@@ -14,7 +14,7 @@ export default defineAppConfig({
         radius: 0.5,
       },
       banner: {
-        enable: true,
+        enable: false,
         showClose: true,
         //to: 'https://github.com',
         content: '测试一下头部心细',
@@ -43,6 +43,7 @@ export default defineAppConfig({
           to: '/',
           target: '_self',
           showLinkIcon: false,
+          icon: 'lucide:rocket'
         },
           {
           title: '文档',
@@ -85,6 +86,7 @@ export default defineAppConfig({
           to: '//OgImage.vaeluon.com',
           description: '获取网站OgImage封面',
           target: '_blank',
+          icon: 'lucide:code'
         },
         {
           title: 'Github OgImage',
@@ -109,15 +111,23 @@ export default defineAppConfig({
           to: '//products.vaeluon.com',
           description: '查看所有开源项目产品信息',
           target: '_blank',
+          icon: 'lucide:box'
         },
         ],
           },
         ],
-        links: [{
+        links: [
+          {
           icon: 'lucide:github',
           to: 'https://github.com/lumitrend/',
           target: '_blank',
-        }],
+          },
+          {
+          icon: 'lucide:heart',
+          to: '//sponsor.vaeluon.com',
+          target: '_blank',
+          }
+        ],
       },
       aside: {
         useLevel: true,
