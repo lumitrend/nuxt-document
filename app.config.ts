@@ -62,11 +62,11 @@ export default defineAppConfig({
           icon: 'lucide:github',
       },
       ],
-      links: [{
+      /* links: [{
         icon: 'lucide:github',
         to: 'https://github.com/lumitrend/',
         target: '_blank',
-      }],
+      }],*/
     },
     aside: {
       useLevel: true,
@@ -94,7 +94,7 @@ export default defineAppConfig({
         target: '_blank',
       },
               {
-        icon: 'lucide:bilibili',
+        icon: 'lucide:tv',
         to: 'https://space.bilibili.com/397615069',
         target: '_blank',
       },
