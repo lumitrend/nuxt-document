@@ -1,0 +1,8 @@
+title: Folder
+icon: lucide:folder
+navBadges:
+  - value: New
+    type: lime
+sidebar:
+  style: default
+collapse: true
