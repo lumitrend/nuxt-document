@@ -1,0 +1,8 @@
+title: 文档
+icon: lucide:folder
+navBadges:
+  - value: Nouveau
+    type: lime
+sidebar:
+  style: default
+collapse: false
