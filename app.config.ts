@@ -43,51 +43,44 @@ export default defineAppConfig({
           to: '/',
           target: '_self',
           showLinkIcon: false,
-          icon: 'lucide:github',
         },
           {
           title: '文档',
           to: '/docs/',
           target: '_self',
           showLinkIcon: false,
-          icon: 'lucide:github',
-        },
+          },
           {
           title: '支持',
-          link: [
-            {
+          links: [{
             title: '官网',
             to: '//vaeluon.com',
             target: '_blank',
             showLinkIcon: true,
-            icon: 'lucide:github',
             },
             {
             title: '博客',
             to: '//blog.vaeluon.com/',
             target: '_blank',
             showLinkIcon: true,
-            icon: 'lucide:github',
           },
             {
             title: '社区',
             to: '//github.com/lumitrend/community/',
             target: '_blank',
             showLinkIcon: true,
-            icon: 'lucide:github',
           },
             {
             title: '关于',
             to: '/about/',
             target: '_self',
             showLinkIcon: false,
-            icon: 'lucide:github',
           },
           ],
           },
           {
-        title: '产品', 
-        links: [{
+          title: '产品列表', 
+          links: [{
           title: 'OgImage',
           to: '//OgImage.vaeluon.com',
           description: '获取网站OgImage封面',
@@ -96,11 +89,29 @@ export default defineAppConfig({
         {
           title: 'Github OgImage',
           to: '//ghog.vaeluon.com',
-          description: '制作并获取Github仓库专属OgImage',
+          description: '制作并获取Github仓库专属OgImage图片',
+          target: '_blank',
+        },
+        {
+          title: 'Readme.MD Edit',
+          to: '//github.com',
+          description: 'Github自述文件 README 信息卡扩展',
+          target: '_blank',
+        },
+        {
+          title: 'Steam信息卡',
+          to: '//stesm.vaeluon.com',
+          description: '制作并获取Steam用户信息以及专属OgImage图片',
+          target: '_blank',
+        },
+        {
+          title: '全部产品',
+          to: '//products.vaeluon.com',
+          description: '查看所有开源项目产品信息',
           target: '_blank',
         },
         ],
-        },
+          },
         ],
         links: [{
           icon: 'lucide:github',
