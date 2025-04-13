@@ -132,7 +132,7 @@ export default defineAppConfig({
       enable: true,
       enableInMobile: true,
       enableInHomepage: false,
-      title: '此页面',
+      title: '页面导航',
       links: [{
         title: 'Star on GitHub',
         icon: 'lucide:star',
