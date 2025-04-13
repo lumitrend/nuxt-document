@@ -1,16 +1,13 @@
-export
-default defineAppConfig({
+export default defineAppConfig({
     shadcnDocs:
     {
-      site:
-      {
-        name:
-        'Vaeluon',
+      site:{
+        name: 'Vaeluon',
         description: 'Beautifully designed Nuxt Content template built with shadcn-vue. Customizable. Compatible. Open Source.',
         ogImage: '/assets/og.png',
         ogImageComponent: 'BlogPost',
         ogImageColor: 'light',
-      },
+        },
       theme: {
         customizable: true,
         color: 'zinc',
@@ -133,30 +130,30 @@ default defineAppConfig({
           icon: 'lucide:square-pen',
           placement: ['docsFooter', 'toc'],
         },
-
-      },
+        },
       footer: {
         credits: 'Copyright © 2025 Vaeluon',
-        links: [{
+        links: [
+          {
           icon: 'lucide:github',
           to: 'https://github.com/lumitrend',
           target: '_blank',
-        },
-        {
+          },
+          {
           icon: 'lucide:twitter',
           to: 'https://x.com/Vaeluon',
           target: '_blank',
-        },
-        {
+          },
+          {
           icon: 'lucide:youtube',
           to: 'https://www.youtube.com/@evanyanet',
           target: '_blank',
-        },
-        {
+          },
+          {
           icon: 'lucide:tv',
           to: 'https://space.bilibili.com/397615069',
           target: '_blank',
-        },
+          },
         ],
       },
       toc: {
@@ -164,18 +161,20 @@ default defineAppConfig({
         enableInMobile: true,
         enableInHomepage: false,
         title: '页面导航',
-        links: [{
+        links: [
+          {
           title: 'Star on GitHub',
           icon: 'lucide:star',
           to: 'https://github.com/ZTL-UwU/shadcn-docs-nuxt',
           target: '_blank',
-        },
-        {
+          },
+          {
           title: 'Create Issues',
           icon: 'lucide:circle-dot',
           to: 'https://github.com/ZTL-UwU/shadcn-docs-nuxt/issues',
           target: '_blank',
-        }],
+          }
+        ],
       },
       search: {
         enable: true,
