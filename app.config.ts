@@ -102,6 +102,13 @@ export default defineAppConfig({
       codeCopyToastText: '复制到剪贴板！',
       fieldRequiredText: '必填',
       pm: ['npm', 'pnpm', 'bun', 'yarn'],
+      editLink: {
+        enable: true,
+        pattern: 'https://github.com/lumitrend/docs/edit/main/content/:path',
+        text: '编辑此页',
+        icon: 'lucide:square-pen',
+        placement: ['docsFooter', 'toc'],
+      },
       
     },
     footer: {
