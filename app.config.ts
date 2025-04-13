@@ -53,23 +53,16 @@ export default defineAppConfig({
           icon: 'lucide:book',
           },
           {
+          title: '博客',
+          to: '/blog/',
+          target: '_self',
+          showLinkIcon: false,
+          icon: 'lucide:pen'
+          }
+          {
           title: '支持',
           icon: 'lucide:heart-headshake',
           links: [
-            {
-            title: '官网',
-            to: '//vaeluon.com',
-            target: '_blank',
-            showLinkIcon: true,
-            icon: 'lucide:house',
-            },
-            {
-            title: '博客',
-            to: '//blog.vaeluon.com/',
-            target: '_blank',
-            showLinkIcon: true,
-            icon: 'lucide:pen',
-            },
             {
             title: '社区',
             to: '//github.com/lumitrend/community/',
@@ -84,6 +77,17 @@ export default defineAppConfig({
             showLinkIcon: false,
             icon: 'lucide:square-user'
             },
+            {
+            title: '协议'
+            to: '/agreement/',
+            showLinkIcon: false,
+            icon: 'lucide:book-open-text'
+            },
+            {
+            title: '赞赏',
+            to: '/sponsor/',
+            icon: 'lucide:heart',
+            }
           ],
           },
           {
