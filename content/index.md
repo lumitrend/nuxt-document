@@ -28,9 +28,9 @@ Vaeluon 文档中心
 
 #description
 提供多个开源项目的使用以及部署文档  
- **steam-cards、readme-cards** 等众多项目  
-我为人人 人人为我  
-## 开源盛世 人人向往  
+ **SteamInfo|ReadmeCard|SiteOgImage|GithubOgImage...**   
+ 多项目|多支持|多方便|多开源  
+<h2>开源盛世 人人向往</h2>  
 ::
 
 ::div{class="border rounded-lg shadow-md"}
