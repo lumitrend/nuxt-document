@@ -86,7 +86,9 @@ default defineAppConfig({
           },
           ],
         },
-        title: '产品', links: [{
+        {
+        title: '产品', 
+        links: [{
           title: 'OgImage',
           to: '//OgImage.vaeluon.com',
           description: '获取网站OgImage封面',
