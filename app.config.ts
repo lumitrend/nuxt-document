@@ -40,44 +40,46 @@ default defineAppConfig({
           dark: '/logo-dark.svg',
         },
         showTitleInMobile: false,
-        nav: [{
+        nav: [
+          {
           title: '首页',
           to: '/',
           target: '_self',
           showLinkIcon: false,
           icon: 'lucide:github',
         },
-        {
+          {
           title: '文档',
           to: '/docs/',
           target: '_self',
           showLinkIcon: false,
           icon: 'lucide:github',
         },
-        {
+          {
           title: '支持',
-          link: [{
+          link: [
+            {
             title: '官网',
             to: '//vaeluon.com',
             target: '_blank',
             showLinkIcon: true,
             icon: 'lucide:github',
-          },
-          {
+            },
+            {
             title: '博客',
             to: '//blog.vaeluon.com/',
             target: '_blank',
             showLinkIcon: true,
             icon: 'lucide:github',
           },
-          {
+            {
             title: '社区',
             to: '//github.com/lumitrend/community/',
             target: '_blank',
             showLinkIcon: true,
             icon: 'lucide:github',
           },
-          {
+            {
             title: '关于',
             to: '/about/',
             target: '_self',
@@ -85,8 +87,8 @@ default defineAppConfig({
             icon: 'lucide:github',
           },
           ],
-        },
-        {
+          },
+          {
         title: '产品', 
         links: [{
           title: 'OgImage',
@@ -100,7 +102,9 @@ default defineAppConfig({
           description: '制作并获取Github仓库专属OgImage',
           target: '_blank',
         },
-        ], ],
+        ],
+        },
+        ],
         links: [{
           icon: 'lucide:github',
           to: 'https://github.com/lumitrend/',
