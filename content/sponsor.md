@@ -1,11 +1,12 @@
 ---
 title: 赞助
-icon: 
+icon: lucide:heart
 description: 赞助
 editLink: false
 lyout: doc
-aside: false
 toc: false
+navigation: false
+breadcrumb: false
 ---
 
 ::card

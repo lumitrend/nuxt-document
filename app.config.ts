@@ -72,7 +72,7 @@ export default defineAppConfig({
             },
             {
             title: '关于',
-            to: '/about/',
+            to: '/teams',
             target: '_self',
             showLinkIcon: false,
             icon: 'lucide:square-user'
@@ -85,7 +85,7 @@ export default defineAppConfig({
             },
             {
             title: '赞赏',
-            to: '/sponsor/',
+            to: '/sponsor',
             icon: 'lucide:heart',
             },
           ],
@@ -139,7 +139,7 @@ export default defineAppConfig({
           },
           {
           icon: 'lucide:heart',
-          to: '//sponsor.vaeluon.com',
+          to: '/sponsor',
           target: '_blank',
           }
         ],
