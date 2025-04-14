@@ -91,7 +91,7 @@ export default defineAppConfig({
           ],
           },
           {
-          title: '产品列表', 
+          title: '产品', 
           links: [
           {
           title: 'OgImage',

@@ -1,8 +1,8 @@
 title: 文档
 icon: lucide:folder
 navBadges:
-  - value: Nouveau
-    type: lime
+  - value: HOT
+    type: red
 sidebar:
   style: default
 collapse: false
