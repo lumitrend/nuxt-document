@@ -1,5 +1,6 @@
 ---
 title: sponsor
+icon: 
 description: 赞赏
 editLink: false
 lyout: doc
