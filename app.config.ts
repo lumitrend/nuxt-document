@@ -57,8 +57,8 @@ export default defineAppConfig({
           to: '/blog/',
           target: '_self',
           showLinkIcon: false,
-          icon: 'lucide:pen'
-          }
+          icon: 'lucide:pen',
+          },
           {
           title: '支持',
           icon: 'lucide:heart-headshake',
@@ -78,27 +78,28 @@ export default defineAppConfig({
             icon: 'lucide:square-user'
             },
             {
-            title: '协议'
+            title: '协议',
             to: '/agreement/',
             showLinkIcon: false,
-            icon: 'lucide:book-open-text'
+            icon: 'lucide:book-open-text',
             },
             {
             title: '赞赏',
             to: '/sponsor/',
             icon: 'lucide:heart',
-            }
+            },
           ],
           },
           {
           title: '产品列表', 
-          links: [{
+          links: [
+          {
           title: 'OgImage',
           to: '//OgImage.vaeluon.com',
           description: '获取网站OgImage封面',
           target: '_blank',
           icon: 'lucide:code'
-        },
+          },
         {
           title: 'Github OgImage',
           to: '//ghog.vaeluon.com',
