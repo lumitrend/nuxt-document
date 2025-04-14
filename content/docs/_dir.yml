@@ -1,8 +1,5 @@
 title: 阅读文档
-icon: lucide:folder
-navBadges:
-  - value: HOT
-    type: red
+icon: lucide:book
 sidebar:
   style: default
-collapse: true
+collapse: false
