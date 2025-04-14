@@ -1,6 +1,9 @@
 ---
 title: 博客
+editLink: false
+toc: false
 navigation: false
+breadcrumb: false
 ---
 ::card
 ---

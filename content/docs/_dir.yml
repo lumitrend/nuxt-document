@@ -5,4 +5,4 @@ navBadges:
     type: red
 sidebar:
   style: default
-collapse: false
+collapse: true

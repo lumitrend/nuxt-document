@@ -1,5 +1,8 @@
 ---
 title: 关于
+editLink: false
+lyout: doc
+toc: false
 navigation: false
 breadcrumb: false
 ---
